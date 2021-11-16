@@ -22,6 +22,7 @@ import org.alabourd.honors_contract.Comparator.FileSizeComparator;
 import org.alabourd.honors_contract.FileInformation;
 import org.alabourd.honors_contract.SortingTypes;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
@@ -264,7 +265,8 @@ public class ListPane extends BorderPane {
                 if (OSName.startsWith("Windows")) {
                     Runtime.getRuntime().exec("explorer /select, " + filePath);
                 } else { // Mac OS and Linux are the same
-                    Runtime.getRuntime().exec("open -R " + filePath);
+                    // https://stackoverflow.com/questions/43783824/java-not-able-to-open-finder-window-having-space-in-path
+                    Runtime.getRuntime().exec(new String[] { "open", "-R", filePath }, null, new File("/"));
                 }
 
             } catch (Exception e) {
