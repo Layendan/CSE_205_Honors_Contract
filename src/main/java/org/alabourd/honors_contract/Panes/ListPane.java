@@ -14,6 +14,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
+
 import org.alabourd.honors_contract.Comparator.FileDateComparator;
 import org.alabourd.honors_contract.Comparator.FileNameComparator;
 import org.alabourd.honors_contract.Comparator.FilePathComparator;
@@ -21,8 +22,6 @@ import org.alabourd.honors_contract.Comparator.FileSizeComparator;
 import org.alabourd.honors_contract.FileInformation;
 import org.alabourd.honors_contract.SortingTypes;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
@@ -255,17 +254,20 @@ public class ListPane extends BorderPane {
         public void handle(MouseEvent event) {
             Text pane = (Text) event.getSource();
             String filePath = pane.getText();
+            String OSName = System.getProperty("os.name");
 
-            // Only works on Mac
             // Open file in file explorer
-            // https://stackoverflow.com/questions/43783824/java-not-able-to-open-finder-window-having-space-in-path
-            // note no leading forward slash
-            File workingDir = new File("/");
-            String[] cmd = new String[] { "open", "-R", filePath };
+            // https://stackoverflow.com/questions/40963947/open-a-file-in-default-file-explorer-and-highlight-it-using-javafx-or-plain-java/51017185
 
             try {
-                Runtime.getRuntime().exec(cmd, null, workingDir);
-            } catch (IOException e) {
+
+                if (OSName.startsWith("Windows")) {
+                    Runtime.getRuntime().exec("explorer /select, " + filePath);
+                } else { // Mac OS and Linux are the same
+                    Runtime.getRuntime().exec("open -R " + filePath);
+                }
+
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }
