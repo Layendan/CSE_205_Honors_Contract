@@ -256,6 +256,7 @@ public class ListPane extends BorderPane {
             Text pane = (Text) event.getSource();
             String filePath = pane.getText();
 
+            // Only works on Mac
             // Open file in file explorer
             // https://stackoverflow.com/questions/43783824/java-not-able-to-open-finder-window-having-space-in-path
             // note no leading forward slash

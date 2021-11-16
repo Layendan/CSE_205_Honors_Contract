@@ -13,13 +13,19 @@ public class FileSizeComparator implements Comparator<FileInformation> {
 
     @Override
     public int compare(FileInformation o1, FileInformation o2) {
-        int size;
+        long size;
         if (isAscending) {
-            size = (int) (o2.getFileSize() - o1.getFileSize());
+            size = o2.getFileSize() - o1.getFileSize();
         } else {
-            size = (int) (o1.getFileSize() - o2.getFileSize());
+            size = o1.getFileSize() - o2.getFileSize();
         }
 
-        return Integer.compare(size, 0);
+        if (size > 0) {
+            return 1;
+        } else if (size < 0) {
+            return -1;
+        } else {
+            return 0;
+        }
     }
 }
