@@ -4,3 +4,5 @@ Honors_Contract.iml
 target
 .settings
 .project
+.classpath
+.DS_Store
