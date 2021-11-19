@@ -53,15 +53,15 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Aidan Labourdette (Student)</o:Author>
   <o:LastAuthor>Aidan Labourdette (Student)</o:LastAuthor>
   <o:Revision>2</o:Revision>
-  <o:TotalTime>84</o:TotalTime>
-  <o:Created>2021-11-18T06:46:00Z</o:Created>
-  <o:LastSaved>2021-11-18T06:46:00Z</o:LastSaved>
+  <o:TotalTime>97</o:TotalTime>
+  <o:Created>2021-11-19T18:12:00Z</o:Created>
+  <o:LastSaved>2021-11-19T18:12:00Z</o:LastSaved>
   <o:Pages>9</o:Pages>
-  <o:Words>999</o:Words>
-  <o:Characters>5700</o:Characters>
-  <o:Lines>47</o:Lines>
-  <o:Paragraphs>13</o:Paragraphs>
-  <o:CharactersWithSpaces>6686</o:CharactersWithSpaces>
+  <o:Words>1184</o:Words>
+  <o:Characters>6755</o:Characters>
+  <o:Lines>56</o:Lines>
+  <o:Paragraphs>15</o:Paragraphs>
+  <o:CharactersWithSpaces>7924</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -725,7 +725,19 @@ word-wrap:break-word'>
 
 <div class=WordSection1>
 
+<p class=MsoNormal style='line-height:200%'><span style='font-family:"Times New Roman",serif'>Aidan
+Labourdette<o:p></o:p></span></p>
 
+<p class=MsoNormal style='line-height:200%'><span style='font-family:"Times New Roman",serif'>Dr.
+Navabi<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:200%'><span style='font-family:"Times New Roman",serif'>19
+November 2021<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:200%'><span style='font-family:"Times New Roman",serif'>M/W/F
+11:15 – 12:05<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:200%'><span style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center;line-height:200%'><b><span
 style='font-family:"Times New Roman",serif'>Honors Contract<o:p></o:p></span></b></p>
@@ -738,19 +750,19 @@ style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
 <p class=MsoNormal style='line-height:200%'><span style='font-family:"Times New Roman",serif'><span
 style='mso-tab-count:1'>            </span>I first came up with the idea of
 having a file size identifier when my PC was low on storage. I did not want to
-download one of the bloated and malicious-like computer cleaners currently available
-online, so I decided to create my own. Originally, the program did not have</span><span
-lang=X-NONE style='font-family:"Times New Roman",serif;mso-ansi-language:X-NONE'>
-a GUI, instead it ran off the command line and would ask you for a file path
-manually. Deciding, that I could make it more powerful and more useful, I
-decided to make it more user friendly and easier to find the desired file. I
-thought that Java was the perfect language to use to create this program. Thanks
-to the Java Runtime Environment, the could would run on any operating system
-without any reworking of the code. Due to this feature, I could use this program
-on both my desktop computer to see which files took up the most space and
-delete them as well as on my MacBook. I also wanted to use some of the concept
-I learned throughout the semester. Some of these concepts include: JavaFX GUI, Comparable
-Interface, Multi-Threading and File-Reading.<o:p></o:p></span></p>
+download one of the bloated and malicious-like computer cleaners currently
+available online, so I decided to create my own. Originally, the program did
+not have</span><span lang=X-NONE style='font-family:"Times New Roman",serif;
+mso-ansi-language:X-NONE'> a GUI, instead it ran off the command line and would
+ask you for a file path manually. Deciding, that I could make it more powerful
+and more useful, I decided to make it more user friendly and easier to find the
+desired file. I thought that Java was the perfect language to use to create
+this program. Thanks to the Java Runtime Environment, the could would run on
+any operating system without any reworking of the code. Due to this feature, I
+could use this program on both my desktop computer to see which files took up
+the most space and delete them as well as on my MacBook. I also wanted to use
+some of the concept I learned throughout the semester. Some of these concepts
+include: JavaFX GUI, Comparable Interface, Multi-Threading and File-Reading.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='line-height:200%'><span style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
 
@@ -758,19 +770,19 @@ Interface, Multi-Threading and File-Reading.<o:p></o:p></span></p>
 style='font-family:"Times New Roman",serif'><o:p></o:p></span></p>
 
 <p class=MsoNormal style='line-height:200%'><span style='font-family:"Times New Roman",serif'><span
-style='mso-tab-count:1'>            </span>The requirements for this project are
-to go through <span class=GramE>all of</span> the files defined in the given
-folder. Add them to an ArrayList and store that data in the app so that it can
-be displayed to the user and be changed when sorted. The app should be able to
-sort the files given based on the Comparable class chosen. The application
-should also be able to open the file chosen by the user so that they can edit or
-delete the file. The app should not freeze and should be enjoyable to use. The
-app should be able to handle errors and not crash. The user should also be able
-to choose the size</span><span lang=X-NONE style='font-family:"Times New Roman",serif;
-mso-ansi-language:X-NONE'> of files to be stored in the ArrayList. The user
-should be able to know what they can and cannot do at a certain moment. They
-should also understand if the app is doing something, or if has crashed.</span><span
-style='font-family:"Times New Roman",serif'><o:p></o:p></span></p>
+style='mso-tab-count:1'>            </span>The requirements for this project
+are to go through <span class=GramE>all of</span> the files defined in the
+given folder. Add them to an ArrayList and store that data in the app so that
+it can be displayed to the user and be changed when sorted. The app should be
+able to sort the files given based on the Comparable class chosen. The
+application should also be able to open the file chosen by the user so that
+they can edit or delete the file. The app should not freeze and should be
+enjoyable to use. The app should be able to handle errors and not crash. The
+user should also be able to choose the size</span><span lang=X-NONE
+style='font-family:"Times New Roman",serif;mso-ansi-language:X-NONE'> of files
+to be stored in the ArrayList. The user should be able to know what they can
+and cannot do at a certain moment. They should also understand if the app is
+doing something, or if has crashed.</span><span style='font-family:"Times New Roman",serif'><o:p></o:p></span></p>
 
 <p class=MsoNormal style='line-height:200%'><span style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
 
@@ -786,13 +798,13 @@ directory, I tried it out on both Windows and MacOS. After confirming that it
 works and fixing bugs by using a black-box approach, I decided to work on a GUI
 that could allow the user to check the files in the given directory. After
 setting up a JavaFX project and importing the classes I wrote, I decided to
-base my front-end from Assignment 6. In that assignment, we built a JavaFX application
-that contains two pages. One where the user would input a class, and another
-where the user could check the number of students in that class. I decided that
-my first page should allow the user to add of the files to the ArrayList by
-running the back-end program using a button. Originally, I made it so that the
-user would have to manually enter the path to the folder; however, after
-looking through the JavaFX documentation, I found the FileChooser and
+base my front-end from Assignment 6. In that assignment, we built a JavaFX
+application that contains two pages. One where the user would input a class,
+and another where the user could check the number of students in that class. I
+decided that my first page should allow the user to add of the files to the
+ArrayList by running the back-end program using a button. Originally, I made it
+so that the user would have to manually enter the path to the folder; however,
+after looking through the JavaFX documentation, I found the FileChooser and
 FolderChooser classes. These two classes would natively open file
 explorer/finder and allow the user to define their desired path to their
 folder. Once I finished adding that feature, I started working on the second
@@ -803,18 +815,19 @@ task. At first, I tried using Labels instead of Texts because it would allow
 for a more pleasant viewing experience for the user; however, if a lot of files
 were displayed at once, the app would lag a lot due to the amount of rendering
 needed. Because of that problem, I decided to change it to Text, a simpler Node
-to render. After that, I decided to work on the sorting ComboBox. Thanks to Assignment
-7, it was easy to use the ComboBox event handler and change it to a sorting Comparable
-instead of a Color. I decided to make it so that once the user changes the
-sorting method, the center pan would update and show the files in a new sorted
-order. After fixing a few bugs that came up, I understood that running the
-back-end task on the UI thread was not a good idea. Because of how the application
-was implemented, the back-end task would freeze the UI. I decided to multi-thread
-the back-end task, this decision removed the humongous load on the UI thread
-and stopped the freezing of the app. After making the application
-multi-threaded, I added a ComboBox that allowed the user to choose what the minimum
-size of each file needs to be before being added to the ArrayList of files. Thanks
-to this addition, the ListPane’s framerate drastically increased.<o:p></o:p></span></p>
+to render. After that, I decided to work on the sorting ComboBox. Thanks to
+Assignment 7, it was easy to use the ComboBox event handler and change it to a
+sorting Comparable instead of a Color. I decided to make it so that once the
+user changes the sorting method, the center pan would update and show the files
+in a new sorted order. After fixing a few bugs that came up, I understood that
+running the back-end task on the UI thread was not a good idea. Because of how
+the application was implemented, the back-end task would freeze the UI. I
+decided to multi-thread the back-end task, this decision removed the humongous
+load on the UI thread and stopped the freezing of the app. After making the
+application multi-threaded, I added a ComboBox that allowed the user to choose
+what the minimum size of each file needs to be before being added to the
+ArrayList of files. Thanks to this addition, the ListPane’s framerate drastically
+increased.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='line-height:200%'><span style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
 
@@ -908,33 +921,32 @@ style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp
 
 <p class=MsoNormal style='line-height:200%'><span style='font-family:"Times New Roman",serif'>Each
 comparator takes in two variables and compares them returning -1 if the first
-item is less than the second item, 1 if vice versa, and 0 if they are equal. Although
-I added a third variable that allowed the user to choose between normal or
-reversed sorting, I never implemented it in the GUI and hence, never used. I
-then have two panes that are shown in the <span class=SpellE>TabPane</span>.
+item is less than the second item, 1 if vice versa, and 0 if they are equal.
+Although I added a third variable that allowed the user to choose between
+normal or reversed sorting, I never implemented it in the GUI and hence, never
+used. I then have two panes that are shown in the <span class=SpellE>TabPane</span>.
 The first of the two is the ListPane. This pane shows all the files found in
 the given directory with the parameters the user set. The second pane allows
 the user to choose a directory to search and set the parameters of the search.
 The <span class=SpellE>ContractApplication</span> class is the main class. It
 is run to open the application and contains the <span class=SpellE>Application.start</span>()
-method. It sets up the <span class=SpellE>TabPane</span> and adds the ListPane
-and the <span class=SpellE>SearchPane</span> to it. <span class=SpellE>FileInformation</span>
-is a class to store the information of each file that fits the criteria given
-by the user. Each <span class=SpellE>FileInformation</span> object contains a date,
-a <span class=SpellE>fileName</span>, and <span class=SpellE>absoluteFilePath</span>,
-a <span class=SpellE>relativeFilePath</span>, a <span class=SpellE>fileSize</span>,
+method. It sets up the <span class=SpellE>TabPane</span> and adds the <span
+class=SpellE>ListPane</span> and the <span class=SpellE>SearchPane</span> to
+it. <span class=SpellE>FileInformation</span> is a class to store the
+information of each file that fits the criteria given by the user. Each <span
+class=SpellE>FileInformation</span> object contains a date, a <span
+class=SpellE>fileName</span>, and <span class=SpellE>absoluteFilePath</span>, a
+<span class=SpellE>relativeFilePath</span>, a <span class=SpellE>fileSize</span>,
 a <span class=SpellE>lastModified</span> variable, and a format variable to
 format the numbers into a string. The <span class=SpellE>SearchPane</span>
 creates the variables and adds it to the ArrayList while the ListPane reads the
 variables and display them in a readable fashion to the user. Finally, the <span
 class=SpellE>SortingTypes</span> class is an Enum class. I use that class for
-an easier time understanding my code when I am sorting the ArrayList in the
-ListPane class.<o:p></o:p></span></p>
+an easier time understanding my code when I am sorting the <span class=SpellE>ArrayList</span>
+in the <span class=SpellE>ListPane</span> class.<o:p></o:p></span></p>
 
-<p class=MsoNormal style='line-height:200%'><span style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal style='line-height:200%'><b><span style='font-family:"Times New Roman",serif'>Images
-of Application:<o:p></o:p></span></b></p>
+<p class=MsoNormal style='line-height:200%'><b><span style='font-family:"Times New Roman",serif'>UML
+Diagram:<o:p></o:p></span></b></p>
 
 <p class=MsoNormal style='line-height:200%'><span style='font-family:"Times New Roman",serif;
 mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"
@@ -957,85 +969,26 @@ mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="216
  </v:formulas>
  <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
  <o:lock v:ext="edit" aspectratio="t"/>
-</v:shapetype><v:shape id="Picture_x0020_5" o:spid="_x0000_i1031" type="#_x0000_t75"
- alt="Graphical user interface&#10;&#10;Description automatically generated"
- style='width:469pt;height:276pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Summary.fld/image001.png" o:title="Graphical user interface&#10;&#10;Description automatically generated"/>
-</v:shape><![endif]--><![if !vml]><img width=469 height=276
-src="Summary.fld/image001.png"
-alt="Graphical user interface&#10;&#10;Description automatically generated"
-v:shapes="Picture_x0020_5"><![endif]></span><span style='font-family:"Times New Roman",serif'><o:p></o:p></span></p>
-
-<p class=MsoNormal style='line-height:200%'><span style='font-family:"Times New Roman",serif;
-mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_6" o:spid="_x0000_i1030"
- type="#_x0000_t75" alt="A picture containing text, screenshot, monitor&#10;&#10;Description automatically generated"
- style='width:468pt;height:248pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Summary.fld/image002.png" o:title="A picture containing text, screenshot, monitor&#10;&#10;Description automatically generated"/>
-</v:shape><![endif]--><![if !vml]><img width=468 height=248
-src="Summary.fld/image002.png"
-alt="A picture containing text, screenshot, monitor&#10;&#10;Description automatically generated"
-v:shapes="Picture_x0020_6"><![endif]></span><span style='font-family:"Times New Roman",serif'><o:p></o:p></span></p>
-
-<p class=MsoNormal style='line-height:200%'><span style='font-family:"Times New Roman",serif;
-mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_9" o:spid="_x0000_i1029"
- type="#_x0000_t75" alt="Graphical user interface&#10;&#10;Description automatically generated"
- style='width:469pt;height:276pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Summary.fld/image003.png" o:title="Graphical user interface&#10;&#10;Description automatically generated"/>
-</v:shape><![endif]--><![if !vml]><img width=469 height=276
-src="Summary.fld/image003.png"
-alt="Graphical user interface&#10;&#10;Description automatically generated"
-v:shapes="Picture_x0020_9"><![endif]></span><span style='font-family:"Times New Roman",serif'><o:p></o:p></span></p>
-
-<p class=MsoNormal style='line-height:200%'><span style='font-family:"Times New Roman",serif;
-mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_7" o:spid="_x0000_i1028"
- type="#_x0000_t75" alt="Text&#10;&#10;Description automatically generated"
- style='width:469pt;height:276pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Summary.fld/image004.png" o:title="Text&#10;&#10;Description automatically generated"/>
-</v:shape><![endif]--><![if !vml]><img width=469 height=276
-src="Summary.fld/image004.png" alt="Text&#10;&#10;Description automatically generated"
-v:shapes="Picture_x0020_7"><![endif]></span><span style='font-family:"Times New Roman",serif'><o:p></o:p></span></p>
-
-<p class=MsoNormal style='line-height:200%'><span style='font-family:"Times New Roman",serif;
-mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_8" o:spid="_x0000_i1027"
- type="#_x0000_t75" alt="Graphical user interface, text&#10;&#10;Description automatically generated"
- style='width:469pt;height:276pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Summary.fld/image005.png" o:title="Graphical user interface, text&#10;&#10;Description automatically generated"/>
-</v:shape><![endif]--><![if !vml]><img width=469 height=276
-src="Summary.fld/image005.png"
-alt="Graphical user interface, text&#10;&#10;Description automatically generated"
-v:shapes="Picture_x0020_8"><![endif]></span><span style='font-family:"Times New Roman",serif'><o:p></o:p></span></p>
-
-<span style='font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
-Calibri;mso-fareast-theme-font:minor-latin;mso-ansi-language:EN-US;mso-fareast-language:
-EN-US;mso-bidi-language:AR-SA'><br clear=all style='mso-special-character:line-break;
-page-break-before:always'>
-</span>
-
-<p class=MsoNormal><span style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal style='line-height:200%'><b><span style='font-family:"Times New Roman",serif'>UML
-Diagram:<o:p></o:p></span></b></p>
-
-<p class=MsoNormal style='line-height:200%'><span style='font-family:"Times New Roman",serif;
-mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_1" o:spid="_x0000_i1026"
- type="#_x0000_t75" alt="Text&#10;&#10;UML Diagram of Project" style='width:468pt;
- height:491pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Summary.fld/image006.png" o:title="Text&#10;&#10;UML Diagram of Project"/>
+</v:shapetype><v:shape id="Picture_x0020_1" o:spid="_x0000_i1031" type="#_x0000_t75"
+ alt="Text&#10;&#10;UML Diagram of Project" style='width:468pt;height:491pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="Summary.fld/image001.png" o:title="Text&#10;&#10;UML Diagram of Project"/>
 </v:shape><![endif]--><![if !vml]><img width=468 height=491
-src="Summary.fld/image006.png" alt="Text&#10;&#10;UML Diagram of Project"
+src="Summary.fld/image001.png" alt="Text&#10;&#10;UML Diagram of Project"
 v:shapes="Picture_x0020_1"><![endif]></span><span style='font-family:"Times New Roman",serif'><o:p></o:p></span></p>
 
-<p class=MsoNormal style='line-height:200%'><span style='font-family:"Times New Roman",serif'><a
-href="https://gofile.io/d/wuRiVk">UML Diagram File</a> – <i>Use <span
-class=SpellE>yFile</span>, IntelliJ IDEA, or Android Studios to open linked file<o:p></o:p></i></span></p>
+<p class=MsoNormal style='line-height:200%'><a href="https://gofile.io/d/wuRiVk"><span
+style='font-family:"Times New Roman",serif'>UML Diagram File</span></a><span
+style='font-family:"Times New Roman",serif'> – <i>Use <span class=SpellE>yFile</span>,
+IntelliJ IDEA, or Android Studios to open linked file<o:p></o:p></i></span></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman",serif;mso-fareast-font-family:
 "Times New Roman";mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_3"
- o:spid="_x0000_i1025" type="#_x0000_t75" alt="QR code to UML diagram link"
+ o:spid="_x0000_i1030" type="#_x0000_t75" alt="QR code to UML diagram link"
  style='width:64pt;height:64pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Summary.fld/image007.png" o:title="QR code to UML diagram link"/>
+ <v:imagedata src="Summary.fld/image002.png" o:title="QR code to UML diagram link"/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=64 height=64
-src="Summary.fld/image007.png" alt="QR code to UML diagram link" v:shapes="Picture_x0020_3"><![endif]></span><span
+src="Summary.fld/image002.png" alt="QR code to UML diagram link" v:shapes="Picture_x0020_3"><![endif]></span><span
 style='font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman",serif;mso-fareast-font-family:
@@ -1044,11 +997,92 @@ style='font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Ro
 <p class=MsoNormal><span class=SpellE><span style='font-family:"Times New Roman",serif;
 mso-fareast-font-family:"Times New Roman"'>Github</span></span><span
 style='font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>
-Link: <a href="https://github.com/Layendan/CSE_205_Honors_Contract">link</a><o:p></o:p></span></p>
+Link: </span><a href="https://github.com/Layendan/CSE_205_Honors_Contract"><span
+style='font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>link</span></a><span
+style='font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:200%'><span style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:200%'><b><span style='font-family:"Times New Roman",serif'>Simulation</span></b><span
+style='font-family:"Times New Roman",serif'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:200%'><b><span style='font-family:"Times New Roman",serif'>Images
+of Application:<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='line-height:200%'><span style='font-family:"Times New Roman",serif;
+mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_5" o:spid="_x0000_i1029"
+ type="#_x0000_t75" alt="Graphical user interface&#10;&#10;Description automatically generated"
+ style='width:469pt;height:276pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="Summary.fld/image003.png" o:title="Graphical user interface&#10;&#10;Description automatically generated"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=469 height=276
+src="Summary.fld/image003.png"
+alt="Graphical user interface&#10;&#10;Description automatically generated"
+v:shapes="Picture_x0020_5"><![endif]></span><span style='font-family:"Times New Roman",serif'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:200%'><span style='font-family:"Times New Roman",serif;
+mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_6" o:spid="_x0000_i1028"
+ type="#_x0000_t75" alt="A picture containing text, screenshot, monitor&#10;&#10;Description automatically generated"
+ style='width:468pt;height:248pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="Summary.fld/image004.png" o:title="A picture containing text, screenshot, monitor&#10;&#10;Description automatically generated"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=468 height=248
+src="Summary.fld/image004.png"
+alt="A picture containing text, screenshot, monitor&#10;&#10;Description automatically generated"
+v:shapes="Picture_x0020_6"><![endif]></span><span style='font-family:"Times New Roman",serif'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:200%'><span style='font-family:"Times New Roman",serif;
+mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_9" o:spid="_x0000_i1027"
+ type="#_x0000_t75" alt="Graphical user interface&#10;&#10;Description automatically generated"
+ style='width:469pt;height:276pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="Summary.fld/image005.png" o:title="Graphical user interface&#10;&#10;Description automatically generated"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=469 height=276
+src="Summary.fld/image005.png"
+alt="Graphical user interface&#10;&#10;Description automatically generated"
+v:shapes="Picture_x0020_9"><![endif]></span><span style='font-family:"Times New Roman",serif'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:200%'><span style='font-family:"Times New Roman",serif;
+mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_7" o:spid="_x0000_i1026"
+ type="#_x0000_t75" alt="Text&#10;&#10;Description automatically generated"
+ style='width:469pt;height:276pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="Summary.fld/image006.png" o:title="Text&#10;&#10;Description automatically generated"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=469 height=276
+src="Summary.fld/image006.png" alt="Text&#10;&#10;Description automatically generated"
+v:shapes="Picture_x0020_7"><![endif]><!--[if gte vml 1]><v:shape id="Picture_x0020_8"
+ o:spid="_x0000_i1025" type="#_x0000_t75" alt="Graphical user interface, text&#10;&#10;Description automatically generated"
+ style='width:469pt;height:276pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="Summary.fld/image007.png" o:title="Graphical user interface, text&#10;&#10;Description automatically generated"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=469 height=276
+src="Summary.fld/image007.png"
+alt="Graphical user interface, text&#10;&#10;Description automatically generated"
+v:shapes="Picture_x0020_8"><![endif]></span><span style='font-family:"Times New Roman",serif'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:200%'><b><span style='font-family:"Times New Roman",serif'>Conclusion<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='line-height:200%'><b><span style='font-family:"Times New Roman",serif'><span
+style='mso-tab-count:1'>            </span></span></b><span style='font-family:
+"Times New Roman",serif'>Problems I had with this project include preventing
+the freezing and crashing of the app when preforming demanding tasks as well as
+dealing with multi-threading and making the application thread-safe. Building a
+GUI that was easy to use but would not break the program and would not lag all
+the time was also a hard task that I had to overcome, at least partially. Some
+things that I would still want to improve in the app include reducing lag when
+displaying large amounts of files by creating more of smaller grids and
+loading/unloading them when in view or not or decrease the amount of event
+handlers and using instead one global event handler for clicking the path link.
+Sorting while on the <span class=SpellE>ListPane</span> also tends to freeze
+the GUI if the user is sorting many files, even though it is being
+multi-threaded. Most likely I am multi-threading it wrong, but it <span
+class=GramE>works</span> and I do not necessarily want to change it at the
+moment. Other improvements I can add to the application <span class=GramE>later
+on</span> would include a way to easily delete the files and be able to select
+multiple using a <span class=SpellE>CheckBox</span>. I would also want to add
+custom colors and visuals to each node to make them stand out more and create</span><span
+lang=X-NONE style='font-family:"Times New Roman",serif;mso-ansi-language:X-NONE'>
+a more modern look to the application.</span><span style='font-family:"Times New Roman",serif'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:200%'><span style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
 
 </div>
 
 </body>
 
 </html>
-
